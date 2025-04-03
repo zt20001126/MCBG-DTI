@@ -1,13 +1,15 @@
-# CSTDTI: Convolutional-Self-Attention Transformer for Drug-Target Interaction Prediction
+# MCBG-DTI: Multi-Channel Graph-Based Deep Learning Framework for Drug–Target Interaction Prediction
 
 ## Overview
-Welcome to the CSTDTI project! CSTDTI is a novel deep learning framework designed for predicting Drug-Target Interactions (DTI) with high accuracy and interpretability. It leverages a Multi-Channel Graph Isomorphism Network (MCGIN) for drug molecule representation, a Convolutional-Self-Attention Transformer (ConvSE-Transformer) for protein sequence modeling, and a hierarchical cross-attention fusion module to capture complex interactions between drugs and targets. Our model addresses challenges such as structural similarity in drug molecules, long-range dependencies in protein sequences, and the need for interpretable predictions in drug discovery.
+Welcome to the MCBG-DTI project! MCBG-DTI is a novel deep learning framework for accurate prediction of Drug–Target Interactions (DTIs). The model integrates a **Multi-Channel Graph Isomorphism Network (MCGIN)** to extract both local and global structural features of drug molecules, a **hybrid protein encoding module** that combines **1D convolution**, **Squeeze-and-Excitation (SE) blocks**, and **convolutional self-attention** to capture both local biochemical patterns and long-range dependencies in protein sequences, and a **Bidirectional Gated Fusion Attention (BGFA)** module to deeply model interactions between drug and protein representations. 
+
+This architecture is designed to address several key challenges in DTI prediction, including the difficulty of distinguishing structurally similar drug subgraphs, capturing long-range sequence dependencies in proteins, and enhancing the quality of drug–target feature integration. Experimental results on multiple benchmark datasets demonstrate that MCBG-DTI outperforms existing state-of-the-art models in terms of prediction accuracy. Furthermore, case studies and molecular docking experiments further confirm the reliability and biological relevance of the predicted interactions.
 
 ## Current Status
-At this time, the code for CSTDTI is still being organized and refined. We are actively working to ensure that the codebase is well-documented, clean, and user-friendly before making it publicly available. We apologize for the delay and appreciate your patience.
+The MCBG-DTI codebase is currently being finalized. We are working to ensure the implementation is clean, well-documented, and easy to use. Thank you for your patience as we prepare for a stable public release.
 
 ## Upcoming Release
-We are committed to open-source principles and plan to release the fully organized CSTDTI code as soon as possible. Once ready, the code will be uploaded to this repository, including detailed documentation, usage instructions, and example data. Please stay tuned for updates, and we will notify the community when the release is available.
+We are committed to open-source principles and plan to release the complete MCBG-DTI framework soon. The release will include model code, detailed documentation, usage guidelines, and example datasets to help researchers and developers reproduce and build upon our work. Stay tuned for updates—we will notify the community when the code becomes available.
 
 ## Acknowledgments
-We are deeply grateful for the recognition and support from the research community for our work on CSTDTI. Your interest and encouragement inspire us to continue improving and sharing our advancements in DTI prediction. Thank you for your understanding and patience as we prepare the code for public access.
+We sincerely thank the research community for their interest and support. Your encouragement drives us to continue advancing DTI prediction methodologies. We appreciate your understanding as we work to deliver a robust and accessible implementation of MCBG-DTI.
