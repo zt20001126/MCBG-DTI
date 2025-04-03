@@ -1,15 +1,43 @@
 # MCBG-DTI: Multi-Channel Graph-Based Deep Learning Framework for Drug–Target Interaction Prediction
 
-## Overview
-Welcome to the MCBG-DTI project! MCBG-DTI is a novel deep learning framework for accurate prediction of Drug–Target Interactions (DTIs). The model integrates a **Multi-Channel Graph Isomorphism Network (MCGIN)** to extract both local and global structural features of drug molecules, a **hybrid protein encoding module** that combines **1D convolution**, **Squeeze-and-Excitation (SE) blocks**, and **convolutional self-attention** to capture both local biochemical patterns and long-range dependencies in protein sequences, and a **Bidirectional Gated Fusion Attention (BGFA)** module to deeply model interactions between drug and protein representations. 
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)
+![Status](https://img.shields.io/badge/status-Coming%20Soon-orange.svg)
+![Paper](https://img.shields.io/badge/paper-MCBG--DTI-lightgrey)
+![Model Type](https://img.shields.io/badge/model-GNN%2BAttention-blueviolet)
 
-This architecture is designed to address several key challenges in DTI prediction, including the difficulty of distinguishing structurally similar drug subgraphs, capturing long-range sequence dependencies in proteins, and enhancing the quality of drug–target feature integration. Experimental results on multiple benchmark datasets demonstrate that MCBG-DTI outperforms existing state-of-the-art models in terms of prediction accuracy. Furthermore, case studies and molecular docking experiments further confirm the reliability and biological relevance of the predicted interactions.
+## 🧬 Overview
+**MCBG-DTI** is a novel deep learning framework for accurate prediction of Drug–Target Interactions (DTIs). It integrates:
 
-## Current Status
-The MCBG-DTI codebase is currently being finalized. We are working to ensure the implementation is clean, well-documented, and easy to use. Thank you for your patience as we prepare for a stable public release.
+- 🧪 A **Multi-Channel Graph Isomorphism Network (MCGIN)** for modeling both local and global topological structures of drug molecules.
+- 🧬 A protein feature extractor combining **1D convolution**, **Squeeze-and-Excitation (SE) blocks**, and **convolutional self-attention**, enabling the modeling of local biochemical patterns and long-range dependencies.
+- 🔁 A **Bidirectional Gated Fusion Attention (BGFA)** module for deep interaction modeling between drug and protein features.
 
-## Upcoming Release
-We are committed to open-source principles and plan to release the complete MCBG-DTI framework soon. The release will include model code, detailed documentation, usage guidelines, and example datasets to help researchers and developers reproduce and build upon our work. Stay tuned for updates—we will notify the community when the code becomes available.
+MCBG-DTI effectively addresses the limitations of traditional DTI models in distinguishing structurally similar subgraphs, capturing long-range dependencies in protein sequences, and integrating multimodal biological features. Experiments on benchmark datasets show superior predictive performance, and case studies with molecular docking further validate the model's biological relevance.
 
-## Acknowledgments
-We sincerely thank the research community for their interest and support. Your encouragement drives us to continue advancing DTI prediction methodologies. We appreciate your understanding as we work to deliver a robust and accessible implementation of MCBG-DTI.
+---
+
+## 🚧 Current Status
+The codebase is currently being finalized. We're working on cleaning the implementation, writing documentation, and preparing it for release. Thanks for your patience!
+
+---
+
+## 🚀 Upcoming Release
+We are committed to open-source principles and will release:
+
+- ✅ Full source code
+- ✅ Example datasets
+- ✅ Step-by-step usage instructions
+- ✅ Pre-trained model checkpoints (optional)
+
+📌 Stay tuned! We’ll notify the community when the code is ready.
+
+---
+
+## 🙏 Acknowledgments
+We appreciate the interest and support from the research community. Your encouragement motivates us to keep pushing the boundaries of DTI prediction research. Thank you for your understanding as we work to bring you a stable, user-friendly release of **MCBG-DTI**.
+
+---
+
+## 📎 Citation (Coming Soon)
+If you find this work useful, please consider citing our paper once it's officially published.
